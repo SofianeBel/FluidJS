@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Build output directories
+/dist
+/build
+
+# Logs and temporary files
+*.log
+
+# Fichiers générés par macOS
+.DS_Store
+
+# Fichiers générés par Windows
+Thumbs.db
+
+# Répertoires et fichiers spécifiques aux éditeurs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers d'environnement
+.env 

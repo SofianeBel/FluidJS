@@ -1,0 +1,26 @@
+{
+  "name": "fluidjs",
+  "version": "1.0.0",
+  "description": "High-performance fluid simulation using ThreeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "jest",
+    "benchmark": "node scripts/benchmark.js"
+  },
+  "dependencies": {
+    "three": "^0.161.0",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.161.2",
+    "vite": "^5.1.0",
+    "jest": "^29.7.0",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  }
+} 
